@@ -8,7 +8,21 @@
 </head>
 <body>
 
-<%= yield %>
+<!--New header-->
+<header class="navbar navbar-fixed-top navbar-inverse">
+	<div class="navbar-inner">
+		<div class="container">
+			<%=link_to "KAVY HOME", root_path, id: "logo" %>
+		</div>
+	</div>
+
+</header>
+<!--New header-->
+<div class="container">
+	<%= yield %>
+</div>
+
+
 
 </body>
 </html>
