@@ -1,5 +1,7 @@
 <p id="notice"><%= notice %></p>
 
+<%= image_tag @user.gravatar_url ,class: 'gravatar'%>
+
 <p>
   <strong>Name:</strong>
   <%= @user.name %>
